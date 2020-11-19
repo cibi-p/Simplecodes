@@ -1,5 +1,4 @@
-//Name: CIBI P
-//Register Number: 1912106
+
 #include<iostream>
 using namespace std;
 
