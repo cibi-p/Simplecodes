@@ -1,0 +1,25 @@
+OPEN
+Github
+The name of the owner is Github
+
+The file is successfully opend at
+Thu Jan 21 19:44:12 2021
+
+
+Github ask for time and date: Thu Jan 21 19:44:12 2021
+
+Github ask for name : Github
+Github ask for time: 19:44:12
+Github ask for date: 2021/1/21
+The file is successfully closed at 	Thu Jan 21 19:44:12 2021
+
+-------------------------------------
+
+The file is successfully opend at
+Thu Jan 21 19:46:57 2021
+
+
+The file is successfully closed at 	Thu Jan 21 19:46:57 2021
+
+-------------------------------------
+
