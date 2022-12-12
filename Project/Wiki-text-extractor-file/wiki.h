@@ -4,10 +4,12 @@
 void wiki_remove_bracket(char a[])
 {
     FILE * fp;
+    FILE * fp_w;
     char ch;
     fp=fopen(a,"r");
+    fp_w=fopen("out.txt","w");
     bool f=0;
-    if(fp==NULL)
+    if(fp==NULL && fp_w==NULL)
         printf("File cannot be opened\n");
     else{
         while(ch!=EOF){
@@ -15,7 +17,7 @@ void wiki_remove_bracket(char a[])
             if(ch=='[')
                 f=1;
             if(f==0){
-                printf("%c",ch);
+                fputc(ch,fp_w);
             }
             if(ch==']')
                 f=0;
