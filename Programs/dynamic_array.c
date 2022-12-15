@@ -25,6 +25,7 @@ int main()
         {
           b[j]=a[j];
         }
+        free(a);
         a=b;
         a[i]=i;
         s++;
